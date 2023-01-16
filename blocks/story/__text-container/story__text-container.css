@@ -1,0 +1,6 @@
+.story__text-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
