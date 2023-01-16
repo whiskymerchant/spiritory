@@ -5,4 +5,5 @@
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 70px;
+  column-gap: 30px;
 }
