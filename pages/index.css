@@ -12,3 +12,24 @@
 @import url(../blocks/story/__heading/story__heading.css);
 @import url(../blocks/story/__image/story__image.css);
 @import url(../blocks/story/__text-container/story__text-container.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__container/menu__container.css);
+@import url(../blocks/menu/__item/_name/menu__item_name.css);
+@import url(../blocks/menu/__item/_price/menu__item_price.css);
+
+@import url(../blocks/working_hours/working_hours.css);
+@import url(../blocks/working_hours/__container/working_hours__container.css);
+@import url(../blocks/working_hours/__day/working_hours__day.css);
+@import url(../blocks/working_hours/__heading/working_hours__heading.css);
+@import url(../blocks/working_hours/__hours/working_hours__hours.css);
+
+@import url(../blocks/events/events.css);
+@import url(../blocks/events/__container/events__container.css);
+@import url(../blocks/events/__item-date-time/events__item-date-time.css);
+@import url(../blocks/events/__item-description/events__item-description.css);
+@import url(../blocks/events/__item-name/events__item-name.css);
+@import url(../blocks/events/__title/events__title.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);

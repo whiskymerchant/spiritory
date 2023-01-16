@@ -1,0 +1,8 @@
+.events__container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 6fr;
+  grid-template-rows: repeat(auto, auto);
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: lightgrey;
+}

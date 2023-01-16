@@ -12,16 +12,15 @@
   <header class="header">
     <img src="./images/spiritory_logo_med-res.jpg" alt="" class="header__logo">
     <nav class="header__menu-container">
-      <a href="#" class="header__story header__menu-item">История</a>
-      <a href="#" class="header__menu header__menu-item">Меню</a>
-      <a href="#" class="header__hours_and_location header__menu-item">Часы работы</a>
-      <a href="#" class="header__events header__menu-item">Мероприятия</a>
+      <a href="#story" class="header__story header__menu-item">История</a>
+      <a href="#menu" class="header__menu header__menu-item">Меню</a>
+      <a href="#working_hours" class="header__hours_and_location header__menu-item">Часы работы</a>
+      <a href="#events" class="header__events header__menu-item">Мероприятия</a>
     </nav>
   </header>
 
   <main class="content">
-
-    <section class="story">
+    <section class="story" id="story">
       <div class="story__text-container">
         <h1 class="story__heading">История бара</h1>
         <p class="story__text">
@@ -29,10 +28,73 @@
         </p>
       </div>
       <img src="./images/story-image.webp" alt="" class="story__image">
-
     </section>
 
+    <section class="menu" id="menu">
+      <h1 class="menu__heading">Меню</h1>
+      <h2 class="menu__subtitle">Горячее</h2>
+      <div class="menu__container">
+        <p class="menu__item_name">Куряу</p>
+        <p class="menu__item_price">150 руб.</p>
+        <p class="menu__item_name">Куряу</p>
+        <p class="menu__item_price">150 руб.</p>
+        <p class="menu__item_name">Куряу</p>
+        <p class="menu__item_price">150 руб.</p>
+        <p class="menu__item_name">Куряу</p>
+        <p class="menu__item_price">150 руб.</p>
+        <p class="menu__item_name">Куряу</p>
+        <p class="menu__item_price">150 руб.</p>
+      </div>
+
+      <h2 class="menu__subtitle">Бухлишко</h2>
+      <div class="menu__container">
+        <p class="menu__item_name">Водка</p>
+        <p class="menu__item_price">150 руб.</p>
+        <p class="menu__item_name">Водка</p>
+        <p class="menu__item_price">150 руб.</p>
+        <p class="menu__item_name">Водка</p>
+        <p class="menu__item_price">150 руб.</p>
+        <p class="menu__item_name">Водка</p>
+        <p class="menu__item_price">150 руб.</p>
+        <p class="menu__item_name">Водка</p>
+        <p class="menu__item_price">150 руб.</p>
+      </div>
+    </section>
+
+    <section class="working_hours" id="working_hours">
+      <h1 class="working_hours__heading">Мы открыты</h1>
+      <div class="working_hours__container">
+        <p class="working_hours__day">Понедельник</p>
+        <p class="working_hours__hours">11:00 - 23:00</p>
+        <p class="working_hours__day">Вторник</p>
+        <p class="working_hours__hours">11:00 - 23:00</p>
+        <p class="working_hours__day">Среда</p>
+        <p class="working_hours__hours">11:00 - 23:00</p>
+        <p class="working_hours__day">Четверг</p>
+        <p class="working_hours__hours">11:00 - 23:00</p>
+        <p class="working_hours__day">Пятница</p>
+        <p class="working_hours__hours">11:00 - 23:00</p>
+        <p class="working_hours__day">Суббота</p>
+        <p class="working_hours__hours">11:00 - 23:00</p>
+        <p class="working_hours__day">Воскресенье</p>
+        <p class="working_hours__hours">11:00 - 23:00</p>
+      </div>
+    </section>
+
+    <section class="events" id="events">
+      <h1 class="events__title">Мероприятия</h1>
+      <h2 class="events__subtitle">Декабрь 2022 г.</h2>
+      <div class="events__container">
+        <p class="events__item-date-time">31 декабря 2022 г.</p>
+        <p class="events__item-name">Бухаем с Сирожей</p>
+        <p class="events__item-description">Бухаем много, весело, бесплатно</p>
+      </div>
+    </section>
 
   </main>
+
+  <footer class="footer">
+    <a href="mailto:anton.plekhov@gmail.com" class="footer__text">&#xa9;Антон Плехов</a>
+  </footer>
 
 </body>

@@ -1,0 +1,9 @@
+.working_hours__container {
+  max-width: 50%;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: repeat(auto, 100px);
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: lightgrey;
+}
